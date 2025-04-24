@@ -1,0 +1,205 @@
+body {
+    color: rgb(216, 206, 206);
+    background-color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+    margin: 0;
+}
+
+a {
+    color: rgb(242, 236, 236);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+p {
+    max-width: 900px;
+    line-height: 1.6;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .botao-menu {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*IMAGEM FOTO PERFIL: ---------------------------------------------------------------------------------------*/
+footer img{ 
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    box-shadow: 0 0 13px rgba(69, 136, 199, 0.786);
+}
+header img{ /*barra da imagem */
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid aqua;
+}
+header {  /*margem da imagem */
+    margin-top: 40px; 
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*rodapé: -----------------------------------------------------------------------------------------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espaço entre os itens */
+    margin-top: 40px;
+}
+
+
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* espaço entre os blocos */
+    text-decoration: none;
+    color: white; /* Cor dos nomes */
+}
+
+footer a p {
+    margin-top: 10px; /* aumenta a distância entre a imagem e o texto */
+    font-size: 16px; 
+}
+footer {
+    margin-top: 220px; /* aumenta o espaço entre o conteúdo e o rodapé */
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+/*Banner menu: -----------------------------------------------------------------------------------------------------*/
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: black;
+    transform: scale(1.05);
+
+}
+
+.botao-menu {
+    background-color: aqua;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.botao-menu:hover {
+    background-color: rgb(57, 18, 137);
+    transform: scale(1.05);
+}
+
+.banner-menu {
+    background-color: black;
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    color: rgb(236, 241, 241);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*link github: ----------------------------------------------------------------------------------------------*/
+.link-github {
+    color: rgb(75, 75, 182);
+    font-weight: bold; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.link-github:hover {
+    text-decoration: underline; 
+    text-align: center;
+}
+.link-container {
+    text-align: center;
+    margin-top: 10px; /* opcional para dar espaço */
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+.contatos p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
