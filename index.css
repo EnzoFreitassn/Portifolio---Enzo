@@ -2,7 +2,7 @@ body {
     color: rgb(216, 206, 206);
     background-color: rgb(43, 43, 43);
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 70px;
+    padding-top: 100px; /* AUMENTA AQUI */
 }
 
 ul {
@@ -21,7 +21,12 @@ a {
     display: inline-block;
     transition: 0.2s;
 }
-
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
 p {
     max-width: 900px;
     line-height: 1.6;
@@ -31,13 +36,17 @@ p {
 
 h1 {
     color: aqua;
-    border-bottom: 2px solid aqua;
+    border-bottom: 6px solid aqua;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 h2 {
-    margin-top: 60px;
-    margin-bottom: 25px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -53,8 +62,9 @@ section {
 .card {
     background-color: #1e1e1e;
     border-radius: 12px;
-    padding: 30px;
-    margin: 40px auto;
+    padding: 25px;
+    margin-top: 0px; /* Adiciona esse especificamente para espaço entre o h2 e a card */
+    margin-bottom: 40px; /* Mantém o espaço abaixo, se quiser */
     max-width: 900px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
@@ -81,7 +91,7 @@ footer img{
 }
 
 img {
-    box-shadow: 0 0 13px rgba(69, 136, 199, 0.786);
+    box-shadow: 0 0 38px rgba(69, 136, 199, 0.786);
 }
 header img{ /*barra da imagem */
     width: 150px; 
@@ -132,7 +142,7 @@ footer {
 }
 
 nav a:hover{
-    color: black;
+    color: rgba(0, 0, 0, 0.467);
     transform: scale(1.05);
 
 }
@@ -193,7 +203,7 @@ nav a:hover{
 }
 .link-container {
     text-align: center;
-    margin-top: 10px; /* opcional para dar espaço */
+    margin-top: 0px; /* opcional para dar espaço */
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 
@@ -202,4 +212,17 @@ nav a:hover{
     margin-bottom: 10px;
     font-size: 18px;
     text-align: center;
+}
+
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px); /* ao invés de translateX */
+    filter: blur(10px);
+    transition: all 1s ease-out;
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
 }

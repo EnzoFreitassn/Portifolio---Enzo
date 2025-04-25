@@ -11,24 +11,24 @@
         <nav class="container-nav">
           <span class="logo">Enzo de Freitas Souza Nogueira</span>
           <ul> 
-            <li><a href="index.html" class="botao-menu">Sobre mim</a></li>
-            <li><a href="interesses.html" class="botao-menu">Hobbies</a></li>
-            <li><a href="project.html" class="botao-menu">Projetos</a></li>
-            <li><a href="contact.html" class="botao-menu">Contato</a></li>  
+            <li><a href="#sobre" class="botao-menu">Sobre mim</a></li>
+            <li><a href="#hobbies" class="botao-menu">Hobbies e Interesses</a></li>
+            <li><a href="#projetos" class="botao-menu">Projetos</a></li>
+            <li><a href="#contato" class="botao-menu">Contato</a></li>  
           </ul> 
         </nav>
       </div>
      
          <header>
              <div class="center">
-                 <img src="./img/enzo.png" alt="Foto de Enzo">
+                 <img src="./img/enzo_temp.png" alt="Foto de Enzo">
              </div>
              <h1> Portifólio: Enzo de Freitas</h1>
              <h2> Cursando Engenharia de Software</h2>
          </header>
      
          <main>
-            <section>
+            <section id="sobre" class="hidden">
                 <h2>👤 Biografia</h2>
                 <div class="card">
                     <p>Olá! Me chamo <strong>Enzo de Freitas Souza Nogueira</strong>, tenho 20 anos e sou natural de Morada Nova, no interior do Ceará.</p>
@@ -37,6 +37,50 @@
                     Fui um dos organizadores da <strong>Sescomp</strong>, o que me permitiu desenvolver habilidades de <strong>liderança</strong>, <strong>comunicação</strong> e <strong>trabalho em equipe</strong>. Meu objetivo é crescer na área, construir projetos legais e ajudar a transformar ideias em soluções que realmente façam a diferença.</p>
                 </div>
             </section>
+
+            <section id="hobbies" class="hidden">
+                <h2>🎯 Hobbies</h2>
+                <div class="card">
+                <p>No tempo livre, gosto de treinar na academia, correr, jogar futebol, ler livros, gosto de assistir séries e filmes e melhorar no meu desenvolvimento pessoal, além de fazer cursos online para me manter atualizado. Também valorizo muito os momentos de lazer, gosto de passar meu tempo com amigos e família e conversas descontraídas ou viagens curtas que renovam as energias.
+                </p></div>
+            </section>
+            <section class="hidden">
+                <h2>👨🏽‍💻 Interesses</h2>
+                <div class="card">
+                <p>Tenho interesse em gestão de projetos, desenvolvimento web e front-end, com foco na criação de soluções eficientes e com uma excelente experiência de usuário.
+                    Estou sempre em busca de aprimorar meus conhecimentos em tecnologias atuais, boas práticas de desenvolvimento e metodologias ágeis, pois acredito que o aprendizado contínuo é essencial para o crescimento profissional.
+                </p></div>
+            </section>
+
+            <section id="projetos" class="hidden">
+                <h2>🛒 Projeto em Python: Automação de Supermercado</h2>
+                <div class="card">
+                <p>Esse projeto foi um trabalho da disciplina fundamentos da programação (usando a linguagem Python), que minha equipe, se aprofundou mais no trabalho para deixa-lo mais complexo.
+                    O projeto é para facilitar a automação de um supermercado, o qual inclui o estoque de produtos, o lucro do dia e mensal e as contas em valores do caixa.
+                </p></div>
+                <div class="link-container">
+                    <a href="https://github.com/EnzoFreitassn/Codigo-py---Supermecado" class="link-github">Ver no Github</a>
+                  </div>
+            </section>
+            <section class="hidden">
+                  <h2>Código em Java de uma Eclusa</h2>
+                  <div class="card">
+                  <p>Esse projeto foi um trabalho da disciplina Programação Orientada a Objetos (usando a linguagem Java). O objetivo do mesmo era fazer uma eclusa de navios, onde é possível visualizar também não só a parte do código, mas a view dos navios atravessando a mesma. 
+                    O projeto foi muito desafiador, pois necessitou de bastante conhecimento, além disso, muito trabalho em equipe para tirar dúvidas e melhorar cada vez mais nosso código
+                  </p></div>
+                  <div class="link-container">
+                      <a href="https://github.com/EnzoFreitassn/Codigo-Eclusa---java" class="link-github">Ver no Github</a>
+                    </div>
+            </section>
+
+            <section id="contato" class="hidden">
+                <h2>📞 Contato</h2>
+                <div class="card">
+                    <p>📧 Email: enzofreitas2045@gmail.com</p>
+                    <p>📱 WhatsApp: (88) 99615-1475</p></div>
+            </section>
+
+
          </main>
      
          <footer>
@@ -56,4 +100,5 @@
     </div>
     
 </body>
+<script src="scripts.js"></script>
 </html> 
