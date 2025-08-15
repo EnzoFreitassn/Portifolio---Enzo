@@ -1,104 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Enzo</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enzo de Freitas — Portfólio</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <div class="banner-menu">
-        <nav class="container-nav">
-          <span class="logo">Enzo de Freitas Souza Nogueira</span>
-          <ul> 
-            <li><a href="#sobre" class="botao-menu">Sobre mim</a></li>
-            <li><a href="#hobbies" class="botao-menu">Hobbies e Interesses</a></li>
-            <li><a href="#projetos" class="botao-menu">Projetos</a></li>
-            <li><a href="#contato" class="botao-menu">Contato</a></li>  
-          </ul> 
-        </nav>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <nav class="container-nav">
+      <a href="#home" class="brand">Enzo de Freitas</a>
+      <ul class="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO (tela cheia) -->
+  <section id="home" class="hero">
+    <div class="mouse-light" aria-hidden="true"></div>
+
+    <div class="container-hero">
+      <div class="hero-text">
+        <span class="badge">Engenharia de Software & Front‑end</span>
+        <h1 class="title">Enzo de Freitas</h1>
+        <h2 class="subtitle">Desenvolvendo interfaces modernas e rápidas</h2>
+        <p class="desc">
+          Especializado em HTML, CSS, JavaScript/TypeScript e React. Focado em performance e boas práticas de acessibilidade.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#contato">Entre em contato</a>
+          <a class="btn ghost" href="#projetos">Ver projetos</a>
+        </div>
       </div>
-     
-         <header>
-             <div class="center">
-                 <img src="./img/enzo_temp.png" alt="Foto de Enzo">
-             </div>
-             <h1> Portfólio: Enzo de Freitas</h1>
-             <h2> Cursando Engenharia de Software</h2>
-         </header>
-     
-         <main>
-            <section id="sobre" class="hidden">
-                <h2>👤 Biografia</h2>
-                <div class="card">
-                    <p>Olá! Me chamo <strong>Enzo de Freitas Souza Nogueira</strong>, tenho 20 anos e sou natural de Morada Nova, no interior do Ceará.</p>
-                    <p>Atualmente curso o 5º semestre de graduação na <strong>Universidade Federal do Ceará (UFC)</strong>, campus de Russas.</p>
-                    <p>Tenho grande interesse por <strong>tecnologia</strong> e busco participar de <strong>projetos e eventos</strong> que contribuam para meu desenvolvimento pessoal e profissional.
-                    Fui um dos organizadores da <strong>Sescomp</strong>, o que me permitiu desenvolver habilidades de <strong>liderança</strong>, <strong>comunicação</strong> e <strong>trabalho em equipe</strong>. Meu objetivo é crescer na área, construir projetos legais e ajudar a transformar ideias em soluções que realmente façam a diferença.</p>
-                </div>
-            </section>
 
-            <section id="hobbies" class="hidden">
-                <h2>🎯 Hobbies</h2>
-                <div class="card">
-                <p>No tempo livre, gosto de treinar na academia, correr, jogar futebol, ler livros, gosto de assistir séries e filmes e melhorar no meu desenvolvimento pessoal, além de fazer cursos online para me manter atualizado. Também valorizo muito os momentos de lazer, gosto de passar meu tempo com amigos e família e conversas descontraídas ou viagens curtas que renovam as energias.
-                </p></div>
-            </section>
-            <section class="hidden">
-                <h2>👨🏽‍💻 Interesses</h2>
-                <div class="card">
-                <p>Tenho interesse em gestão de projetos, desenvolvimento web e front-end, com foco na criação de soluções eficientes e com uma excelente experiência de usuário.
-                    Estou sempre em busca de aprimorar meus conhecimentos em tecnologias atuais, boas práticas de desenvolvimento e metodologias ágeis, pois acredito que o aprendizado contínuo é essencial para o crescimento profissional.
-                </p></div>
-            </section>
-
-            <section id="projetos" class="hidden">
-                <h2>🛒 Projeto em Python: Automação de Supermercado</h2>
-                <div class="card">
-                <p>Esse projeto foi um trabalho da disciplina fundamentos da programação (usando a linguagem Python), que minha equipe, se aprofundou mais no trabalho para deixa-lo mais complexo.
-                    O projeto é para facilitar a automação de um supermercado, o qual inclui o estoque de produtos, o lucro do dia e mensal e as contas em valores do caixa.
-                </p></div>
-                <div class="link-container">
-                    <a href="https://github.com/EnzoFreitassn/Codigo-py---Supermecado" class="link-github">Ver no Github</a>
-                  </div>
-            </section>
-            <section class="hidden">
-                  <h2>Código em Java de uma Eclusa</h2>
-                  <div class="card">
-                  <p>Esse projeto foi um trabalho da disciplina Programação Orientada a Objetos (usando a linguagem Java). O objetivo do mesmo era fazer uma eclusa de navios, onde é possível visualizar também não só a parte do código, mas a view dos navios atravessando a mesma. 
-                    O projeto foi muito desafiador, pois necessitou de bastante conhecimento, além disso, muito trabalho em equipe para tirar dúvidas e melhorar cada vez mais nosso código
-                  </p></div>
-                  <div class="link-container">
-                      <a href="https://github.com/EnzoFreitassn/Codigo-Eclusa---java" class="link-github">Ver no Github</a>
-                    </div>
-            </section>
-
-            <section id="contato" class="hidden">
-                <h2>📞 Contato</h2>
-                <div class="card">
-                    <p>📧 Email: enzofreitas2045@gmail.com</p>
-                    <p>📱 WhatsApp: (88) 99615-1475</p></div>
-            </section>
-
-
-         </main>
-     
-         <footer>
-             <a href="https://github.com/EnzoFreitassn" target="_blank" rel="noopener noreferrer">
-                 <img src="./img/github img.png">
-                 <p>Github</p>
-             </a>
-             <a href="https://www.youtube.com/@enzofreitas5278" target="_blank" rel="noopener noreferrer">
-                 <img src="./img/youtube img.png">
-                 <p>Youtube</p>
-             </a>
-             <a href="https://www.instagram.com/enzofreitassn?igsh=eHV5YXBlb3N4NzFm&utm_source=qr" target="_blank" rel="noopener noreferrer">
-                 <img src="./img/instagram img.png">
-                 <p>Instagram</p>
-             </a>
-         </footer> 
+      <div class="hero-photo">
+        <div class="photo-wrap">
+          <img src="./img/enzotela.jpg" alt="Foto de Enzo" />
+        </div>
+      </div>
     </div>
-    
+  </section>
+
+  <main>
+    <section id="habilidades" class="hidden">
+  <div class="skills-header">
+    <h2 class="skills-title">Habilidades</h2>
+    <p class="skills-subtitle">
+      Um conjunto de ferramentas para construir interfaces modernas, acessíveis e performáticas.
+    </p>
+  </div>
+
+  <div class="skills-grid">
+    <!-- 1 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 3h18l-2 17-7 2-7-2L3 3Z" fill="currentColor" opacity=".2"/>
+          <path d="M8 7h8v2H10l.3 3H16v2h-5.4l.2 2.1L12 17l3.5-1 .2-1.7h2.1l-.3 3.2L12 19.8 6.5 17l-.4-4.3H8l-.2-1.7H6.1L6 7h2Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>HTML</h3>
+      <p>Semântica, Flex/Grid, responsivo, animações e acessibilidade (WCAG).</p>
+    </article>
+
+    <!-- 2 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" fill="currentColor" opacity=".15"/>
+          <path d="M10.2 7H8v10.2c0 1.7 1 2.8 3 2.8 1 0 1.9-.2 2.7-.7v-2c-.7.4-1.4.6-2.1.6-.8 0-1.4-.4-1.4-1.3V7Zm9 10.1c0-1.9-1.1-2.6-3.1-3.3-1.6-.6-2-.9-2-1.5s.5-1 1.5-1c.8 0 1.7.3 2.5.7l.8-1.8c-1-.5-2.2-.8-3.3-.8-2.4 0-3.9 1.2-3.9 3.2 0 1.7 1 2.6 3.2 3.3 1.5.5 1.9.9 1.9 1.6s-.6 1.1-1.7 1.1c-.9 0-2-.3-2.9-.9l-.8 1.8c1.1.7 2.5 1 3.8 1 2.7 0 4-1.3 4-3.5Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>CSS</h3>
+      <p>ECMAScript moderno, tipagem estática, padrões e clean code.</p>
+    </article>
+
+    <!-- 3 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="2.2" fill="currentColor"/>
+          <g fill="none" stroke="currentColor" stroke-width="1.4">
+            <ellipse cx="12" cy="12" rx="10" ry="4.5"/>
+            <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(60 12 12)"/>
+            <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(120 12 12)"/>
+          </g>
+        </svg>
+      </div>
+      <h3>JavaScript</h3>
+      <p>Hooks, roteamento, estados, componentes acessíveis e design system.</p>
+    </article>
+
+    <!-- 4 (Git/GitHub) -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M22 5h-5V3h-3v2H6V3H3v2H1v16h22V5zm0 14H1v-7h21v7z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>Git/GitHub</h3>
+      <p>Controle de versão, repositórios remotos e colaboração em projetos.</p>
+    </article>
+
+    <!-- 5 (Inventado) -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" fill="currentColor"/>
+          <path d="M4 12l5 5h6l5-5h-3V7h-4v5H4z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>WebFlow</h3>
+      <p>Criação e design de interfaces visuais com facilidade e colaboração.</p>
+    </article>
+
+    <!-- 6 (Inventado) -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 12h16V4h-4V3h-3v1H7V3H4v1H1v7h3v-2h2v2h3v-2h2v2h3v-2h2v2h3z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h3>DevOps Tools</h3>
+      <p>Integração contínua e automação de processos para entrega rápida.</p>
+    </article>
+
+  </div>
+<section id="projetos" class="projects-section hidden">
+  <div class="projects-head">
+    <h2>Projetos Destacados</h2>
+    <p class="projects-subtitle">Uma seleção dos meus trabalhos mais impactantes.</p>
+  </div>
+
+  <div class="projects-grid">
+    <!-- CARD 1 -->
+    <article class="project-card">
+      <div class="project-thumb">
+        <img src="./img/tela1.port.png" alt="Automação de Supermercado em Python">
+      </div>
+      <div class="project-body">
+        <h3>Automação de Supermercado (Python)</h3>
+        <p>Estoque, lucro diário/mensal e controle de caixa.</p>
+        <ul class="project-tags">
+          <li>Python</li><li>Pandas</li><li>CLI</li>
+        </ul>
+      </div>
+      <div class="project-foot">
+        <a class="btn project-link" href="https://github.com/EnzoFreitassn/Codigo-py---Supermecado" target="_blank" rel="noopener">Ver no Github</a>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="project-card">
+      <div class="project-thumb">
+        <img src="./img/tela2.port.jpg" alt="Eclusa de Navios em Java">
+      </div>
+      <div class="project-body">
+        <h3>Eclusa de Navios (Java/POO)</h3>
+        <p>Simulação com interface visual e modelagem orientada a objetos.</p>
+        <ul class="project-tags">
+          <li>Java</li><li>POO</li><li>Simulação</li>
+        </ul>
+      </div>
+      <div class="project-foot">
+        <a class="btn project-link" href="https://github.com/EnzoFreitassn/Codigo-Eclusa---java" target="_blank" rel="noopener">Ver no Github</a>
+      </div>
+    </article>
+
+    <!-- CARD 3 (exemplo futuro) -->
+    <article class="project-card">
+      <div class="project-thumb no-image"><!-- se não tiver imagem, fica o gradiente -->
+        <img src="./img/tela3.port.jpg" alt="ALT">
+      </div>
+      <div class="project-body">
+        <h3>Dashboard de Vendas (React)</h3>
+        <p>Gráficos interativos, filtros e exportação de relatórios.</p>
+        <ul class="project-tags">
+          <li>React</li><li>TypeScript</li><li>Charts</li>
+        </ul>
+      </div>
+      <div class="project-foot">
+        <a class="btn project-link" href="#" target="_blank" rel="noopener">Ver no Github</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="hidden">
+      <h2>📞 Contato</h2>
+      <div class="card contatos">
+        <p>📧 Email: enzofreitas2045@gmail.com</p>
+        <p>📱 WhatsApp: (88) 99615-1475</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="https://github.com/EnzoFreitassn" target="_blank" rel="noopener">
+      <img src="./img/github img.png" alt="Github" />
+      <p>Github</p>
+    </a>
+    <a href="https://www.youtube.com/@enzofreitas5278" target="_blank" rel="noopener">
+      <img src="./img/youtube img.png" alt="YouTube" />
+      <p>Youtube</p>
+    </a>
+    <a href="https://www.instagram.com/enzofreitassn" target="_blank" rel="noopener">
+      <img src="./img/instagram img.png" alt="Instagram" />
+      <p>Instagram</p>
+    </a>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
-<script src="scripts.js"></script>
-</html> 
+</html>
