@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <!-- NAVBAR -->
+  <!-- NAVBAR --> 
   <header class="navbar">
     <nav class="container-nav">
       <a href="#home" class="brand">Enzo de Freitas</a>
       <ul class="menu">
         <li><a href="#home">Início</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#projetos">Projetos</a></li> 
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
@@ -158,7 +158,7 @@
     <!-- CARD 2 -->
     <article class="project-card">
       <div class="project-thumb">
-        <img src="./img/tela2.port.jpg" alt="Eclusa de Navios em Java">
+        <img src="./img/tela2.port.jpg" alt="Eclusa de Navios em Java">  
       </div>
       <div class="project-body">
         <h3>Eclusa de Navios (Java/POO)</h3>
@@ -193,30 +193,67 @@
 
 
     <!-- CONTATO -->
-    <section id="contato" class="hidden">
-      <h2>📞 Contato</h2>
-      <div class="card contatos">
-        <p>📧 Email: enzofreitas2045@gmail.com</p>
-        <p>📱 WhatsApp: (88) 99615-1475</p>
-      </div>
-    </section>
-  </main>
+<section id="contato" class="contact-section hidden">
+  <div class="contact-head">
+    <h2>Entre em Contato</h2>
+    <p class="contact-subtitle">
+      Interessado em trabalhar juntos? Vamos discutir seu projeto.
+    </p>
+  </div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <a href="https://github.com/EnzoFreitassn" target="_blank" rel="noopener">
-      <img src="./img/github img.png" alt="Github" />
-      <p>Github</p>
-    </a>
-    <a href="https://www.youtube.com/@enzofreitas5278" target="_blank" rel="noopener">
-      <img src="./img/youtube img.png" alt="YouTube" />
-      <p>Youtube</p>
-    </a>
-    <a href="https://www.instagram.com/enzofreitassn" target="_blank" rel="noopener">
-      <img src="./img/instagram img.png" alt="Instagram" />
-      <p>Instagram</p>
-    </a>
-  </footer>
+  <div class="contact-card">
+    <h3 class="contact-title">Entre em Contato</h3>
+
+    <div class="contact-grid">
+      <!-- Email -->
+      <a class="contact-item" href="mailto:enzofreitas2045@gmail.com">
+        <span class="ci-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm8 6L4.5 8.5 4 8v.3L12 14l8-5.7V8l-.5.5L12 12z" fill="currentColor"/></svg>
+        </span>
+        <div class="ci-text">
+          <strong>Email</strong>
+          <span>enzofreitas2045@gmail.com</span>
+        </div>
+      </a>
+
+      <!-- GitHub -->
+      <a class="contact-item" href="https://github.com/EnzoFreitassn" target="_blank" rel="noopener">
+        <span class="ci-icon ci-github" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.4.7-4.1-1.6-4.1-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8-.7 2.8-1 .1-.7.4-1.1.8-1.4-2.7-.3-5.6-1.4-5.6-6.2 0-1.4.5-2.5 1.2-3.4-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.4 1.3a11.8 11.8 0 0 1 6.2 0c2.4-1.6 3.4-1.3 3.4-1.3.6 1.6.2 2.9.1 3.2.8.9 1.2 2 1.2 3.4 0 4.8-2.9 5.8-5.6 6.2.4.3.8 1 .8 2.2v3.2c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z" fill="currentColor"/></svg>
+        </span>
+        <div class="ci-text">
+          <strong>GitHub</strong>
+          <span>@EnzoFreitassn</span>
+        </div>
+      </a>
+
+      <!-- LinkedIn (ajuste se sua URL for diferente) -->
+      <a class="contact-item" href="https://www.linkedin.com/in/enzofreitassn" target="_blank" rel="noopener">
+        <span class="ci-icon ci-linkedin" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5Zm.5 5.5H2v11h3.5v-11ZM9 9H5.5v11H9v-6.1c0-3.3 4-3.6 4 0V20H16.5v-7.3c0-6-6.5-5.8-7.5-2.8V9Z" fill="currentColor"/></svg>
+        </span>
+        <div class="ci-text">
+          <strong>LinkedIn</strong>
+          <span>in/enzofreitassn</span>
+        </div>
+      </a>
+
+      <!-- WhatsApp -->
+      <a class="contact-item" href="https://wa.me/5588996151475" target="_blank" rel="noopener">
+        <span class="ci-icon ci-whatsapp" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20 3.9A10 10 0 0 0 2 14.2L1 22l7.9-2A10 10 0 0 0 20 3.9Zm-8 15.5c-1.8 0-3.4-.6-4.7-1.7l-.4-.3-2.7.7.7-2.6-.3-.4A7.7 7.7 0 1 1 12 19.4Zm4.4-5.5c-.2-.1-1.2-.6-1.3-.6s-.3-.1-.5.2c-.2.2-.6.7-.7.9s-.3.2-.5.1a6.3 6.3 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.5l.3-.5c.1-.2 0-.3 0-.4l-.6-1.4c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.4 0-.6.2-.2.2-.8.8-.8 2s.8 2.3.9 2.5A7.6 7.6 0 0 0 12 16c1.2 0 2.1-.4 2.3-.6.2-.1 1-.8 1.2-1.6.1-.8.1-1.5 0-1.6-.1-.2-.3-.2-.5-.3Z" fill="currentColor"/></svg>
+        </span>
+        <div class="ci-text">
+          <strong>WhatsApp</strong>
+          <span>Me mande uma mensagem</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
 
   <script src="scripts.js"></script>
 </body>
