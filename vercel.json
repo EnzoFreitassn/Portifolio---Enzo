@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/curriculo", "destination": "/Curriculo-Enzo-de-Freitas.pdf" },
+    { "source": "/cv", "destination": "/Curriculo-Enzo-de-Freitas.pdf" }
+  ]
+}
